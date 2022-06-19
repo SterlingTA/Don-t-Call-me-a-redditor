@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+#RedditMinimal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##What is it?
+This app is a personal project for practicing react/redux.
 
-## Available Scripts
+##What is it made of?
+*react/redux
+*moment library
 
-In the project directory, you can run:
+##What does it do?
+This is a simple Reddit crawler app using the Reddit json api for data. The app starts up by loading the R/popular subreddit, presenting a searchbar to use the Reddit search to pull posts from any SFW subreddit, while a subreddit sidebar exists to go to the current top 20 active subreddits.
+Information is pulled from the current subreddit or search term and the first page of results is display showing a post's title, content if available, score, uploader and finally a selection of comments.
+Each comments has an uploader, time since comment, comment body, and score.
 
-### `npm start`
+##What is its future?
+In its current state, I've satisfied my personal goals of simply creating a react/redux app from scratch that's functional. For what it is, I rather not sink a large amount of time for what's simply practice.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If I were to return I would probably overhaul the UI, fix the subreddit sidebar so it doesn't move when new posts are loading in. Keep better track of loading state of comments. Add some aesthetic changes such as adding animations when loading posts or comments. Possibly add a means to add subreddits to the sidebar. Any further Reddit interactions would require switching apis which I would rather avoid this project.
