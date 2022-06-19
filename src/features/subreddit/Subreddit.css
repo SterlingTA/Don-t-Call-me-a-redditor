@@ -1,0 +1,21 @@
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid blueviolet;
+    width: 200px;
+    margin-top: 75px;
+    flex-grow: 2;
+}
+
+.subName{
+    list-style: none;
+}
+
+.subIcon{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: 2px solid blueviolet;
+    margin-bottom: 1%;
+}

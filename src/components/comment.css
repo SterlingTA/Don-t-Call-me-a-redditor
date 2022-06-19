@@ -1,0 +1,21 @@
+#comment {
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    margin-bottom: 1%;
+}
+
+.toprow{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.8em;
+}
+
+.author {
+    margin-right: 3%;
+    font-style: italic;
+}
+
+.updoots {
+    font-weight: bold;
+    color: cadetblue;
+}
